@@ -1,0 +1,46 @@
+.navbar-brand{
+  font-size: 2em !important;
+  color: rgb(29, 224, 11) !important;
+  font-weight: 700;
+}
+.navbar a{
+  text-transform: capitalize;
+  font-weight: 800;
+  transition: 0.5s;
+}
+
+img{
+  border-radius: 10px;
+}
+.nav-item .active{
+  color: red !important;
+  border-bottom: #000 !important;
+}
+.brand{
+  color: green;
+}
+.start{
+opacity: 0.5;
+}
+.start:hover{
+  opacity: 1;
+}
+.animated{
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  transition: 1s linear;
+  animation: animate 1s infinite ease-in-out;
+}
+@keyframes animate{
+  0%{
+    transform: translateY(2px);
+  }
+  50%{
+    transform: translateY(-2px);
+  }
+  100%{
+    transform: translateY(2px);
+  }
+}
+.section{
+  margin-top: 6em;
+}
